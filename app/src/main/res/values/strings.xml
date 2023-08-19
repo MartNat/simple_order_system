@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tutorial</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="birthdate">birthdate</string>
+    <string name="country">country</string>
+    <string name="apply">Apply</string>
+</resources>
