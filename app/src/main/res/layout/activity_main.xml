@@ -12,8 +12,8 @@
 
     <TextView
         android:id="@+id/tvQuestion"
-        android:layout_width="377dp"
-        android:layout_height="57dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/what_do_you_prefer_on_your_sandwich"
         android:textSize="40sp"

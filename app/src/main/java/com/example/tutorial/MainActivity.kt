@@ -4,13 +4,9 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-<<<<<<< HEAD
-import android.widget.RadioButton
-=======
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.Toast
->>>>>>> fe5a821 (A simple order app using checkbox, radio buttons and  view binding)
 import com.example.tutorial.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -39,8 +35,6 @@ class MainActivity : AppCompatActivity() {
 
             // Display the order message
             binding.tvOrder.text = orderString
-<<<<<<< HEAD
-=======
 
             val toastView = layoutInflater.inflate(R.layout.custom_toast, null) as ViewGroup
             Toast(this).apply {
@@ -48,17 +42,13 @@ class MainActivity : AppCompatActivity() {
                 view = toastView
                 show()
             }
->>>>>>> fe5a821 (A simple order app using checkbox, radio buttons and  view binding)
         }
     }
 }
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> fe5a821 (A simple order app using checkbox, radio buttons and  view binding)
 /* binding.btnApply.setOnClickListener(){
      val  firstName = binding.etFirstName.text.toString()
      val  lastName = binding.etLastName.text.toString()
