@@ -3,12 +3,13 @@ package com.example.tutorial
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.Toast
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.tutorial.databinding.ActivityMainBinding
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -36,15 +37,19 @@ class MainActivity : AppCompatActivity() {
             // Display the order message
             binding.tvOrder.text = orderString
 
-            val toastView = layoutInflater.inflate(R.layout.custom_toast, null) as ViewGroup
+            val parentConstraintLayout = findViewById<ConstraintLayout>(R.id.parentConstraintLayout) // Replace with the actual ID of your parent ConstraintLayout
+            val toastView = layoutInflater.inflate(R.layout.custom_toast, parentConstraintLayout) as ViewGroup
+
             Toast(this).apply {
                 duration = Toast.LENGTH_LONG
                 view = toastView
                 show()
             }
+
+        }
         }
     }
-}
+
 
 
 
