@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/ConstraitLayout"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -14,8 +15,8 @@
         android:layout_width="377dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
-        android:text="What do you prefer on your sandwich?"
-        android:textSize="40dp"
+        android:text="@string/what_do_you_prefer_on_your_sandwich"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,19 +36,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Beef" />
+            android:text="@string/beef" />
 
         <RadioButton
             android:id="@+id/rbChicken"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chicken" />
+            android:text="@string/chicken" />
 
         <RadioButton
             android:id="@+id/rbPork"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pork" />
+            android:text="@string/pork" />
 
     </RadioGroup>
 
@@ -55,7 +56,7 @@
         android:id="@+id/cbCheese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="cheese"
+        android:text="@string/cheese"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rgMeat" />
 
@@ -63,7 +64,7 @@
         android:id="@+id/cbSalad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="salad"
+        android:text="@string/salad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cbOnions" />
 
@@ -71,7 +72,7 @@
         android:id="@+id/cbOnions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="onions"
+        android:text="@string/onions"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cbCheese" />
 
@@ -79,7 +80,7 @@
         android:id="@+id/btnOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order"
+        android:text="@string/order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cbSalad" />
 
@@ -87,7 +88,7 @@
         android:id="@+id/tvOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="26dp"
+        android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOrder" />
 

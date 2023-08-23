@@ -5,4 +5,14 @@
     <string name="birthdate">birthdate</string>
     <string name="country">country</string>
     <string name="apply">Apply</string>
+    <string name="delivery_is_on_the_way">Delivery is on the way</string>
+    <string name="todo">TODO</string>
+    <string name="order">Order</string>
+    <string name="onions">onions</string>
+    <string name="cheese">cheese</string>
+    <string name="pork">Pork</string>
+    <string name="chicken">Chicken</string>
+    <string name="beef">Beef</string>
+    <string name="what_do_you_prefer_on_your_sandwich">What do you prefer on your sandwich?</string>
+    <string name="salad">salad</string>
 </resources>
